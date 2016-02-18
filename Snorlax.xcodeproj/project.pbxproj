@@ -10,6 +10,7 @@
 		1F120AE61C757216009CF89F /* Snorlax.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F120AE51C757216009CF89F /* Snorlax.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F120AED1C757216009CF89F /* Snorlax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F120AE21C757216009CF89F /* Snorlax.framework */; };
 		1F120AF21C757216009CF89F /* SnorlaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F120AF11C757216009CF89F /* SnorlaxTests.swift */; };
+		1F120AFD1C7572E1009CF89F /* Snorlax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F120AFC1C7572E1009CF89F /* Snorlax.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		1F120AEC1C757216009CF89F /* SnorlaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnorlaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F120AF11C757216009CF89F /* SnorlaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnorlaxTests.swift; sourceTree = "<group>"; };
 		1F120AF31C757216009CF89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F120AFC1C7572E1009CF89F /* Snorlax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snorlax.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				1F120AE51C757216009CF89F /* Snorlax.h */,
 				1F120AE71C757216009CF89F /* Info.plist */,
+				1F120AFC1C7572E1009CF89F /* Snorlax.swift */,
 			);
 			path = Snorlax;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F120AFD1C7572E1009CF89F /* Snorlax.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +312,7 @@
 		1F120AF71C757216009CF89F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -318,12 +323,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.Snorlax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		1F120AF81C757216009CF89F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
