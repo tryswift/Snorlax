@@ -27,7 +27,7 @@
 		1F120AE21C757216009CF89F /* Snorlax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Snorlax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F120AE51C757216009CF89F /* Snorlax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Snorlax.h; sourceTree = "<group>"; };
 		1F120AE71C757216009CF89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F120AEC1C757216009CF89F /* SnorlaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnorlaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F120AEC1C757216009CF89F /* Snorlax-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snorlax-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F120AF11C757216009CF89F /* SnorlaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnorlaxTests.swift; sourceTree = "<group>"; };
 		1F120AF31C757216009CF89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F120AFC1C7572E1009CF89F /* Snorlax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snorlax.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				1F120AE21C757216009CF89F /* Snorlax.framework */,
-				1F120AEC1C757216009CF89F /* SnorlaxTests.xctest */,
+				1F120AEC1C757216009CF89F /* Snorlax-iOS Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +103,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1F120AE11C757216009CF89F /* Snorlax */ = {
+		1F120AE11C757216009CF89F /* Snorlax-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F120AF61C757216009CF89F /* Build configuration list for PBXNativeTarget "Snorlax" */;
+			buildConfigurationList = 1F120AF61C757216009CF89F /* Build configuration list for PBXNativeTarget "Snorlax-iOS" */;
 			buildPhases = (
 				1F120ADD1C757216009CF89F /* Sources */,
 				1F120ADE1C757216009CF89F /* Frameworks */,
@@ -116,14 +116,14 @@
 			);
 			dependencies = (
 			);
-			name = Snorlax;
+			name = "Snorlax-iOS";
 			productName = Snorlax;
 			productReference = 1F120AE21C757216009CF89F /* Snorlax.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1F120AEB1C757216009CF89F /* SnorlaxTests */ = {
+		1F120AEB1C757216009CF89F /* Snorlax-iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F120AF91C757216009CF89F /* Build configuration list for PBXNativeTarget "SnorlaxTests" */;
+			buildConfigurationList = 1F120AF91C757216009CF89F /* Build configuration list for PBXNativeTarget "Snorlax-iOS Tests" */;
 			buildPhases = (
 				1F120AE81C757216009CF89F /* Sources */,
 				1F120AE91C757216009CF89F /* Frameworks */,
@@ -134,9 +134,9 @@
 			dependencies = (
 				1F120AEF1C757216009CF89F /* PBXTargetDependency */,
 			);
-			name = SnorlaxTests;
+			name = "Snorlax-iOS Tests";
 			productName = SnorlaxTests;
-			productReference = 1F120AEC1C757216009CF89F /* SnorlaxTests.xctest */;
+			productReference = 1F120AEC1C757216009CF89F /* Snorlax-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -169,8 +169,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F120AE11C757216009CF89F /* Snorlax */,
-				1F120AEB1C757216009CF89F /* SnorlaxTests */,
+				1F120AE11C757216009CF89F /* Snorlax-iOS */,
+				1F120AEB1C757216009CF89F /* Snorlax-iOS Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,7 +214,7 @@
 /* Begin PBXTargetDependency section */
 		1F120AEF1C757216009CF89F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F120AE11C757216009CF89F /* Snorlax */;
+			target = 1F120AE11C757216009CF89F /* Snorlax-iOS */;
 			targetProxy = 1F120AEE1C757216009CF89F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -321,7 +321,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.Snorlax;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Snorlax;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -339,7 +339,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.Snorlax;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Snorlax;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -376,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F120AF61C757216009CF89F /* Build configuration list for PBXNativeTarget "Snorlax" */ = {
+		1F120AF61C757216009CF89F /* Build configuration list for PBXNativeTarget "Snorlax-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F120AF71C757216009CF89F /* Debug */,
@@ -384,7 +384,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1F120AF91C757216009CF89F /* Build configuration list for PBXNativeTarget "SnorlaxTests" */ = {
+		1F120AF91C757216009CF89F /* Build configuration list for PBXNativeTarget "Snorlax-iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F120AFA1C757216009CF89F /* Debug */,
