@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Snorlax.xcscheme</key>
+		<key>Snorlax-OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Snorlax-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>1F120AEB1C757216009CF89F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F120B021C76C807009CF89F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F120B0B1C76C809009CF89F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

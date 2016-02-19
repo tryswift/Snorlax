@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F120AE11C757216009CF89F"
-               BuildableName = "Snorlax-iOS.framework"
+               BuildableName = "Snorlax.framework"
                BlueprintName = "Snorlax-iOS"
                ReferencedContainer = "container:Snorlax.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F120AE11C757216009CF89F"
-            BuildableName = "Snorlax-iOS.framework"
+            BuildableName = "Snorlax.framework"
             BlueprintName = "Snorlax-iOS"
             ReferencedContainer = "container:Snorlax.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F120AE11C757216009CF89F"
-            BuildableName = "Snorlax-iOS.framework"
+            BuildableName = "Snorlax.framework"
             BlueprintName = "Snorlax-iOS"
             ReferencedContainer = "container:Snorlax.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F120AE11C757216009CF89F"
-            BuildableName = "Snorlax-iOS.framework"
+            BuildableName = "Snorlax.framework"
             BlueprintName = "Snorlax-iOS"
             ReferencedContainer = "container:Snorlax.xcodeproj">
          </BuildableReference>
