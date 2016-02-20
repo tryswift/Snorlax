@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e # exit on failure
+set -x # print command executed
+
+# Run Tests via OS X
+xcodebuild test -scheme Snorlax-OSX -destination "platform=OS X"
+
+# Run Tests via iOS
+xcodebuild test -scheme Snorlax-iOS -destination "platform=iOS Simulator,name=iPhone 6,OS=9.2"
+
+# Run Tests via tvOS
+xcodebuild test -scheme Snorlax-tvOS -destination "platform=tvOS Simulator,name=Apple TV 1080p,OS=9.1"
+
