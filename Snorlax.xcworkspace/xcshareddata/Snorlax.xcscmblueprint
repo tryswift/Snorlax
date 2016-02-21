@@ -6,11 +6,13 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "63180A2F96404E8633C5418C5D5B59F6A52D9664" : 0,
     "95438028B10BBB846574013D29F154A00556A9D1" : 0
+    "F5B4EC300E7199406BA2B2AA6070092FA65DDD89" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D8180F45-9C95-43C3-9AE6-C55AEB0C78FA",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "63180A2F96404E8633C5418C5D5B59F6A52D9664" : "Snorlax\/",
     "95438028B10BBB846574013D29F154A00556A9D1" : "Snorlax\/Carthage\/Checkouts\/Nimble\/"
+    "F5B4EC300E7199406BA2B2AA6070092FA65DDD89" : "Snorlax\/Carthage\/Checkouts\/PromiseKit\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Snorlax",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Quick\/Nimble.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95438028B10BBB846574013D29F154A00556A9D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mxcl\/PromiseKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5B4EC300E7199406BA2B2AA6070092FA65DDD89"
     }
   ]
 }

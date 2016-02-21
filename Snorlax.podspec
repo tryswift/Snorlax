@@ -38,4 +38,5 @@ Pod::Spec.new do |s|
   s.public_header_files = "Sources/Snorlax/*.h"
 
   s.framework  = "Foundation"
+  s.dependency   "PromiseKit", "~> 3.0"
 end

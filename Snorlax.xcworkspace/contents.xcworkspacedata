@@ -5,6 +5,9 @@
       location = "group:Snorlax.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Carthage/Checkouts/PromiseKit/PromiseKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Carthage/Checkouts/Nimble/Nimble.xcodeproj">
    </FileRef>
 </Workspace>
