@@ -145,7 +145,8 @@
 				1F120AE71C757216009CF89F /* Info.plist */,
 				1F120AFC1C7572E1009CF89F /* Snorlax.swift */,
 			);
-			path = Snorlax;
+			name = Snorlax;
+			path = Sources/Snorlax;
 			sourceTree = "<group>";
 		};
 		1F120AF01C757216009CF89F /* SnorlaxTests */ = {
@@ -154,7 +155,8 @@
 				1F120AF11C757216009CF89F /* SnorlaxTests.swift */,
 				1F120AF31C757216009CF89F /* Info.plist */,
 			);
-			path = SnorlaxTests;
+			name = SnorlaxTests;
+			path = Sources/SnorlaxTests;
 			sourceTree = "<group>";
 		};
 		1F120B041C76C807009CF89F /* Snorlax-OSX */ = {
@@ -592,7 +594,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Snorlax/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Sources/Snorlax/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.Snorlax;
@@ -611,7 +614,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Snorlax/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Sources/Snorlax/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.Snorlax;
@@ -623,7 +627,8 @@
 		1F120AFA1C757216009CF89F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = SnorlaxTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Sources/SnorlaxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.SnorlaxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -633,7 +638,8 @@
 		1F120AFB1C757216009CF89F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = SnorlaxTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Sources/SnorlaxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.SnorlaxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
