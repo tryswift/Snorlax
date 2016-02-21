@@ -69,6 +69,9 @@
 		1F120B261C76CE03009CF89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F120B2B1C76CE03009CF89F /* Snorlax-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snorlax-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F120B321C76CE03009CF89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F120B5A1C79D9B9009CF89F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		1F120B5C1C79D9C5009CF89F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Checkouts/Nimble/build/Debug/Nimble.framework; sourceTree = "<group>"; };
+		1F120B5E1C79D9C9009CF89F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-appletvos/Nimble.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F120B5B1C79D9B9009CF89F /* Nimble.framework in Frameworks */,
 				1F120AED1C757216009CF89F /* Snorlax.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F120B5D1C79D9C5009CF89F /* Nimble.framework in Frameworks */,
 				1F120B0D1C76C809009CF89F /* Snorlax.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F120B5F1C79D9C9009CF89F /* Nimble.framework in Frameworks */,
 				1F120B2C1C76CE03009CF89F /* Snorlax.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +136,7 @@
 		1F120AD81C757216009CF89F = {
 			isa = PBXGroup;
 			children = (
+				1F120B581C79D2E8009CF89F /* Dependencies */,
 				1F120AE41C757216009CF89F /* Snorlax */,
 				1F120AF01C757216009CF89F /* SnorlaxTests */,
 				1F120B041C76C807009CF89F /* Snorlax-OSX */,
@@ -204,6 +211,24 @@
 				1F120B321C76CE03009CF89F /* Info.plist */,
 			);
 			path = "Snorlax-tvOSTests";
+			sourceTree = "<group>";
+		};
+		1F120B581C79D2E8009CF89F /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1F120B591C79D2F7009CF89F /* Tests */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		1F120B591C79D2F7009CF89F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F120B5E1C79D9C9009CF89F /* Nimble.framework */,
+				1F120B5C1C79D9C5009CF89F /* Nimble.framework */,
+				1F120B5A1C79D9B9009CF89F /* Nimble.framework */,
+			);
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -754,6 +779,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Snorlax-OSXTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -768,6 +794,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Snorlax-OSXTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -818,6 +845,10 @@
 		1F120B371C76CE03009CF89F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-appletvos",
+				);
 				INFOPLIST_FILE = "Snorlax-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.jeffhui.Snorlax-tvOSTests";
@@ -830,6 +861,10 @@
 		1F120B381C76CE03009CF89F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-appletvos",
+				);
 				INFOPLIST_FILE = "Snorlax-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.jeffhui.Snorlax-tvOSTests";
