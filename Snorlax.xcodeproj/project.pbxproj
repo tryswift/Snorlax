@@ -19,6 +19,8 @@
 		1F120B391C76CE17009CF89F /* Snorlax.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F120AE51C757216009CF89F /* Snorlax.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F120B3A1C76CE2F009CF89F /* Snorlax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F120AFC1C7572E1009CF89F /* Snorlax.swift */; };
 		1F120B3B1C76CE33009CF89F /* SnorlaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F120AF11C757216009CF89F /* SnorlaxTests.swift */; };
+		1F44D1C01C7D82740079BED5 /* Snorlax.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F120AE51C757216009CF89F /* Snorlax.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F44D1C11C7D82780079BED5 /* Snorlax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F120AFC1C7572E1009CF89F /* Snorlax.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F120B2C1C76CE03009CF89F /* Snorlax.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1811C7A99010009F5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +224,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F120B391C76CE17009CF89F /* Snorlax.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1821C7A99010009F5EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F44D1C01C7D82740079BED5 /* Snorlax.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +346,23 @@
 			productReference = 1F120B2B1C76CE03009CF89F /* Snorlax-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1F88D1841C7A99010009F5EA /* Snorlax-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F88D18C1C7A99010009F5EA /* Build configuration list for PBXNativeTarget "Snorlax-watchOS" */;
+			buildPhases = (
+				1F88D1801C7A99010009F5EA /* Sources */,
+				1F88D1811C7A99010009F5EA /* Frameworks */,
+				1F88D1821C7A99010009F5EA /* Headers */,
+				1F88D1831C7A99010009F5EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snorlax-watchOS";
+			productName = "Snorlax-watchOS";
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -357,6 +391,9 @@
 					1F120B2A1C76CE03009CF89F = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					1F88D1841C7A99010009F5EA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 1F120ADC1C757216009CF89F /* Build configuration list for PBXProject "Snorlax" */;
@@ -377,6 +414,7 @@
 				1F120B0B1C76C809009CF89F /* Snorlax-OSXTests */,
 				1F120B211C76CE03009CF89F /* Snorlax-tvOS */,
 				1F120B2A1C76CE03009CF89F /* Snorlax-tvOSTests */,
+				1F88D1841C7A99010009F5EA /* Snorlax-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -418,6 +456,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1F120B291C76CE03009CF89F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1831C7A99010009F5EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -472,6 +517,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F120B3B1C76CE33009CF89F /* SnorlaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1801C7A99010009F5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F44D1C11C7D82780079BED5 /* Snorlax.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,6 +833,46 @@
 			};
 			name = Release;
 		};
+		1F88D18A1C7A99010009F5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Snorlax-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeffhui.Snorlax-watchOS";
+				PRODUCT_NAME = Snorlax;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		1F88D18B1C7A99010009F5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Snorlax-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeffhui.Snorlax-watchOS";
+				PRODUCT_NAME = Snorlax;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -799,6 +892,7 @@
 				1F120AF81C757216009CF89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F120AF91C757216009CF89F /* Build configuration list for PBXNativeTarget "Snorlax-iOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -807,6 +901,7 @@
 				1F120AFB1C757216009CF89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F120B141C76C809009CF89F /* Build configuration list for PBXNativeTarget "Snorlax-OSX" */ = {
 			isa = XCConfigurationList;
@@ -815,6 +910,7 @@
 				1F120B161C76C809009CF89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F120B171C76C809009CF89F /* Build configuration list for PBXNativeTarget "Snorlax-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -823,6 +919,7 @@
 				1F120B191C76C809009CF89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F120B331C76CE03009CF89F /* Build configuration list for PBXNativeTarget "Snorlax-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -831,6 +928,7 @@
 				1F120B351C76CE03009CF89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F120B361C76CE03009CF89F /* Build configuration list for PBXNativeTarget "Snorlax-tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -839,6 +937,16 @@
 				1F120B381C76CE03009CF89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F88D18C1C7A99010009F5EA /* Build configuration list for PBXNativeTarget "Snorlax-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F88D18A1C7A99010009F5EA /* Debug */,
+				1F88D18B1C7A99010009F5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
