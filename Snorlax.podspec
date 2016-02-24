@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Snorlax"
-  s.version      = "0.1.0"
+  s.version      = "0.2.0"
   s.summary      = "Snoozing for everyone"
   s.description  = <<-DESC
                    Snoozing for everyone!
