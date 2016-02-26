@@ -19,6 +19,12 @@
 		1F120B391C76CE17009CF89F /* Snorlax.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F120AE51C757216009CF89F /* Snorlax.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F120B3A1C76CE2F009CF89F /* Snorlax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F120AFC1C7572E1009CF89F /* Snorlax.swift */; };
 		1F120B3B1C76CE33009CF89F /* SnorlaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F120AF11C757216009CF89F /* SnorlaxTests.swift */; };
+		1F120B5B1C79D9B9009CF89F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F120B5A1C79D9B9009CF89F /* Nimble.framework */; };
+		1F120B5D1C79D9C5009CF89F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F120B5C1C79D9C5009CF89F /* Nimble.framework */; };
+		1F120B5F1C79D9C9009CF89F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F120B5E1C79D9C9009CF89F /* Nimble.framework */; };
+		1F120B851C79EB12009CF89F /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F120B841C79EB12009CF89F /* PromiseKit.framework */; };
+		1F120B8B1C79F4DB009CF89F /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F120B8A1C79F4DB009CF89F /* PromiseKit.framework */; };
+		1F120B8D1C79F4EB009CF89F /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F120B8C1C79F4EB009CF89F /* PromiseKit.framework */; };
 		1F44D1C01C7D82740079BED5 /* Snorlax.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F120AE51C757216009CF89F /* Snorlax.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F44D1C11C7D82780079BED5 /* Snorlax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F120AFC1C7572E1009CF89F /* Snorlax.swift */; };
 /* End PBXBuildFile section */
@@ -165,7 +171,7 @@
 				1F120AF31C757216009CF89F /* Info.plist */,
 			);
 			name = SnorlaxTests;
-			path = Sources/SnorlaxTests;
+			path = Tests/Snorlax;
 			sourceTree = "<group>";
 		};
 		1F120B041C76C807009CF89F /* Snorlax-OSX */ = {
@@ -681,7 +687,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Sources/SnorlaxTests/Info.plist;
+				INFOPLIST_FILE = Tests/Snorlax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.SnorlaxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -692,7 +698,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Sources/SnorlaxTests/Info.plist;
+				INFOPLIST_FILE = Tests/Snorlax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.SnorlaxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
