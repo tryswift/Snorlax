@@ -26,6 +26,12 @@ Using the following Package Managers:
 - [Swift Package Manager](https://swift.org/package-manager/)
 - Adding as an Xcode Subproject
 
+Feel free the look at the [commit
+history](https://github.com/jeffh/Snorlax/commits/master) or browse the
+documentation to see how to create a library:
+
+- [English](Documentation/en-US/)
+
 Can I try installing it?
 ========================
 
