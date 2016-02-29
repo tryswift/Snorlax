@@ -10,6 +10,9 @@ Table of Contents
 - **[Github Checklist](Github.md)**:
   Read this for the checklist for using Github-specific features for your
   library.
+- **[Cutting a Release](CuttingARelease.md)**:
+  Release this for the process of creating a release that for all package
+  managers.
 
 ## Contributing
 
