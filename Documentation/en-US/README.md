@@ -16,5 +16,5 @@ Table of Contents
 
 ## Contributing
 
-Feel free to submit pull requests that translates or adds new documentation for
-specific parts of creating libraries.
+Feel free to submit pull requests that translates or adds new documentation
+about creating libraries.
