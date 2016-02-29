@@ -5,7 +5,8 @@ that your library is applicable to the most platforms. Feel free to skip parts
 that do not apply to your library because of dependencies it needs.
 
 - Code Changes
-      - Make sure you mark your API code as `public`.
+    - Make sure you mark your API code as `public`.
+    - Make sure you have a `LICENSE` file.
 - Create Frameworks in Xcode
     - Make sure its scheme is "shared"
     - Make sure all frameworks have the same PRODUCT_MODULE_NAME build setting
@@ -67,7 +68,7 @@ let package = Package(
 )
 ```
 
-A `.travis.yml` file with Swift Linux + OS X Swift:
+A `.travis.yml` file with Swift Linux + OS X Swift + OS X Xcode:
 
 ```yaml
 osx_image: xcode7.2
@@ -76,14 +77,14 @@ matrix:
   include:
     - os: osx
       env: TYPE=xcode
+    - os: osx
+      env: TYPE=spm
     - os: linux
       dist: trusty
       sudo: required
       env: TYPE=spm
-install:
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then curl -sL https://gist.github.com/kylef/5c0475ff02b7c7671d2a/raw/621ef9b29bbb852fdfd2e10ed147b321d792c1e4/swiftenv-install.sh | bash; fi
+install: if [[ "$TYPE" == "spm" ]]; then eval "$(curl -sL https://gist.githubusercontent.com/kylef/5c0475ff02b7c7671d2a/raw/02090c7ede5a637b76e6df1710e83cd0bbe7dcdf/swiftenv-install.sh)"; fi
 script:
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then . ~/.swiftenv/init; fi
   - ./run-tests $TYPE # test script can dispatch to correct test commands to run
 ```
 
