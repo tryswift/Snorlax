@@ -7,7 +7,7 @@ Table of Contents
 - **[Creating a Library Checklist](CreateALibrary.md)**:
   Read this for the checklist for creating a library to make sure you don't
   miss anything.
-- **[Github Checklist](Github.md)**:
+- **[GitHub Checklist](Github.md)**:
   Read this for the checklist for using Github-specific features for your
   library.
 - **[Cutting a Release](CuttingARelease.md)**:
