@@ -14,7 +14,7 @@ that do not apply to your library because of dependencies it needs.
         - And each test file is in the Framework's Test Bundle
     - Note: that watchOS frameworks cannot have tests
 - Package Managers
-    - Cocoapods
+    - CocoaPods
         - `pod spec create <Project Name>`
         - Modify `<Project>.podspec` file
             - Set version
