@@ -4,7 +4,7 @@ Here's a list of pages that are related to creating a library.
 
 Table of Contents
 
-- **[Creating a Library Checklist](CreatingALibraryChecklist.md)**:
+- **[Creating a Library Checklist](CreateALibrary.md)**:
   Read this for the checklist for creating a library to make sure you don't
   miss anything.
 - **[Github Checklist](Github.md)**:
