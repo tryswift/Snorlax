@@ -21,7 +21,7 @@ Snorlax currently supports the following platforms:
 
 Using the following Package Managers:
 
-- [Cocoapods](https://cocoapods.org/)
+- [CocoaPods](https://cocoapods.org/)
 - [Carthage](https://github.com/Carthage/Carthage)
 - [Swift Package Manager](https://swift.org/package-manager/)
 - Adding as an Xcode Subproject
@@ -44,13 +44,13 @@ Sure, use your favorite package manager. Please note the two different versions:
 
 You can see examples at [Snorlax Samples](https://github.com/jeffh/SnorlaxSamples)
 
-Cocoapods
+CocoaPods
 ---------
 
 Add Snorlax to your pod file and run `pod install`:
 
 ```ruby
-# Cocoapods
+# CocoaPods
 pod 'Snorlax', '~> 0.1.0'
 ```
 

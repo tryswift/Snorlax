@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
                    In truth, Snorlax is an example library demostrating how to build libraries that support multiple platforms:
                     - Carthage
-                    - Cocoapods
+                    - CocoaPods
                     - Swift Package Manager
                     - OS X
                     - iOS

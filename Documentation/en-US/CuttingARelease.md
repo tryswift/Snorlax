@@ -29,20 +29,20 @@ changes included in a new release:
    resolve public API changes made to the library. Major versions may include
    new features and bug fixes like minor or patch version increments.
 
-Carthage, Cocoapods, and Swift Package Manager follow these rules and allow
+Carthage, CocoaPods, and Swift Package Manager follow these rules and allow
 developers to update based on a particular version number.
 
-For example in Cocoapods:
+For example in CocoaPods:
 
 ```ruby
 pod 'Snorlax', '~> 1.2.0'
 ```
 
-The `~>` operator tells cocoapods to follow semantic versioning rules and allow
+The `~>` operator tells CocoaPods to follow semantic versioning rules and allow
 the last specified version number to be flexible when `pod update` is called.
 
-Let's say the cocoapods user installed version `1.2.0` of Snorlax, then version
-`1.2.1` of Snorlax is released. Cocoapods will pull `1.2.1` the next time the
+Let's say the CocoaPods user installed version `1.2.0` of Snorlax, then version
+`1.2.1` of Snorlax is released. CocoaPods will pull `1.2.1` the next time the
 user runs `pod update`.
 
 However, if a minor version of Snorlax is released (`1.3.0`), then `pod update`
@@ -71,7 +71,7 @@ Note: `Snorlax` should be replaced with your project's name.
    - Annotate the tag with changes in this version
  - Push the tag to your repository: `git push origin v1.2.1`
  - Push the cocoapod spec: `pod trunk push Snorlax.podspec`
- - Go to github's released page and create a release out of the pushed tag.
+ - Go to GitHub's released page and create a release out of the pushed tag.
 
 Optionally, you can choose to automate most of it ([Quick][quick] and
 [Nimble][nimble] does this).

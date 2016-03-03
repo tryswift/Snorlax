@@ -14,7 +14,7 @@ that do not apply to your library because of dependencies it needs.
         - And each test file is in the Framework's Test Bundle
     - Note: that watchOS frameworks cannot have tests
 - Package Managers
-    - Cocoapods
+    - CocoaPods
         - `pod spec create <Project Name>`
         - Modify `<Project>.podspec` file
             - Set version
@@ -51,7 +51,7 @@ that do not apply to your library because of dependencies it needs.
         - You can also support Linux, see sample file below.
         - Tell travis to build your repository
 
-All done? Continue to the [Github Checklist](Github.md).
+All done? Continue to the [GitHub Checklist](Github.md).
 
 # Sample Files
 
