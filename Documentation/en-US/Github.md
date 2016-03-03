@@ -2,7 +2,7 @@
 
 GitHub specially treats specific files in the root of your git repository. Many
 optionally allow an extension to tell GitHub how to interpret the text's
-format. For example, `README.md` indiates [GitHub markdown][markdown] README
+format. For example, `README.md` indicates [GitHub markdown][markdown] README
 while `README.rst` indicates a README written in [restructured
 text][restructured]. There are other supported extensions [listed in
 GitHub][gh-markup]. If you don't know which one to
@@ -30,7 +30,7 @@ choose, just pick markdown.
     - What is the code of conduct for this project?
     - What is the recommended code style?
     - What should issues have when being filing?
-        - Steps to reproduce the issue occuring
+        - Steps to reproduce the issue occurring
         - Versions of software used (your library + dependencies)
         - Small example project that demonstrates the problem
         - Why a particular feature request is useful? Does it need examples?
