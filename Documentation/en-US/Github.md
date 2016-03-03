@@ -1,15 +1,15 @@
-# Github Checklist
+# GitHub Checklist
 
-Github specially treats specific files in the root of your git repository. Many
-optionally allow an extension to tell Github how to interpret the text's
-format. For example, `README.md` indiates [github markdown][markdown] README
+GitHub specially treats specific files in the root of your git repository. Many
+optionally allow an extension to tell GitHub how to interpret the text's
+format. For example, `README.md` indiates [GitHub markdown][markdown] README
 while `README.rst` indicates a README written in [restructured
 text][restructured]. There are other supported extensions [listed in
-Github][gh-markup]. If you don't know which one to
+GitHub][gh-markup]. If you don't know which one to
 choose, just pick markdown.
 
 - Make sure you have a `README` which gets displayed as the first thing after
-  the source code view on Github. I strongly recommended having one:
+  the source code view on GitHub. I strongly recommended having one:
     - Explain what this project is about?
     - How do you install it? What's the latest versions?
     - What version of Swift does it require?
