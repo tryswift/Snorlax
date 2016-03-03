@@ -71,7 +71,7 @@ Note: `Snorlax` should be replaced with your project's name.
    - Annotate the tag with changes in this version
  - Push the tag to your repository: `git push origin v1.2.1`
  - Push the cocoapod spec: `pod trunk push Snorlax.podspec`
- - Go to github's released page and create a release out of the pushed tag.
+ - Go to GitHub's released page and create a release out of the pushed tag.
 
 Optionally, you can choose to automate most of it ([Quick][quick] and
 [Nimble][nimble] does this).
