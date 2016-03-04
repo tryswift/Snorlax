@@ -31,6 +31,7 @@ history](https://github.com/jeffh/Snorlax/commits/master) or browse the
 documentation to see how to create a library:
 
 - [English](Documentation/en-US/)
+- [Français](Documentation/fr-FR/)
 
 Can I try installing it?
 ========================
