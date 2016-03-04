@@ -44,7 +44,7 @@ Voici une liste de points pratiques à suivre lors de la création d'une librair
         - Vous pouvez supporter Linux, voir l'exemple ci-dessous.
         - Construisez votre répertoire via Travis.
 
-Tout est OK? La suite [Spécificités Github](ici: Github.md).
+Tout est OK? La suite [Spécificités GitHub](ici: Github.md).
 
 # Examples
 
