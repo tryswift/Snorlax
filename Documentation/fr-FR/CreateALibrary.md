@@ -32,14 +32,14 @@ Voici une liste de points pratiques à suivre lors de la création d'une librair
         - Tous vos 'XCTests' doivent inhériter de `XCTestCaseProvider`
             - Et fournir les `allTest` getter qui spécifient les tests à éxécuter
         - `#if _runtime(_ObjC)` peut être utilisé pour exclure du code sous linux
-        - Utiliser [swiftenv](swiftenv) pour les tests swift "anti multi-versions" et pour autoriser une synchronisation simplifiée de votre version swift supportée avec CI.
+        - Utiliser [swiftenv][swiftenv] pour les tests swift "anti multi-versions" et pour autoriser une synchronisation simplifiée de votre version swift supportée avec CI.
 - Dépendances
     - Pour les développeurs qui souhaitent intégrer votre librairie manuellement, utilisez les modules secondaires de git. Cela peut être fait manuellement ou avec le flag Carthage: `--use-submodules`.
     - Utilisez votre espace de travail pour séparer les dépendances de votre projet xCode lorsque vous en ajoutez en sous-projet.
 - Intégration continue / Test
     - Utilisez `xcodebuild test ...` pour lancer des tests dans xCode via la ligne de commande
     - Utilisez `swift build && swift test` pour lancer des tests dans le gestionnaire de packets Swift
-    - Travis CI - Voir [documentation](travis-ci)
+    - Travis CI - Voir [documentation][travis-ci]
         - Ajoutez un fichier `.travis.yml` à la racine du répertoire.
         - Vous pouvez supporter Linux, voir l'exemple ci-dessous.
         - Construisez votre répertoire via Travis.
