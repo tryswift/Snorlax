@@ -13,4 +13,4 @@ Table des matières
 
 ## Contribuer
 
-N'hésitez pas à proposer des contributions en termes de traductions ou de documentations additionelles à propos de la création de librairies.
+N'hésitez pas à proposer des contributions en matière de traductions ou de documentations additionnelles à propos de la création de librairie.
