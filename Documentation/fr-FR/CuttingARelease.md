@@ -16,17 +16,17 @@ Par exemple `1.4.1`. Une incrémentation d'un des chiffres indique un type spéc
  - **Minor** indique qu'une nouvelle fonctionnalité a été ajoutée sans pour autant modifier l'API liée à votre librairie. Cela signifie que les utilisateurs peuvent mettre à jour leur version sans facilement et utiliser la ou les nouvelle(s) fonctionnalité(s). Ce type de version peut aussi inclure des corrections de bugs.
  - **Major** indique un changement majeur a été appliqué. Les développeurs qui utilisent votre librairie doivent s'attendre à des évolutions concernant l'API de votre librairie et doivent devront probablement mettre à jour leur version. Ce type d'update peut naturellement comprendre de nouvelles fonctionnalités ainsi que des corrections de bugs.
 
-Carthage, Cocoapods, et le gestionnaire de packets Swift suivent ces règles et permettent aux développeurs de mettre à jour leurs librairies en leurs attribuant ce type de format.
+Carthage, CocoaPods, et le gestionnaire de packets Swift suivent ces règles et permettent aux développeurs de mettre à jour leurs librairies en leurs attribuant ce type de format.
 
-Par exemple, avec Cocoapods:
+Par exemple, avec CocoaPods:
 
 ```ruby
 pod 'Snorlax', '~> 1.2.0'
 ```
 
-L'opérator `~>` indiques à cocoapods de suivre les règles de versionning sémantiques en permettant au numéro de version spécifié d'être flexible (littérallement "cette version ainsi que ses derniers patchs") lorsque `pod update` est appelé.
+L'opérator `~>` indiques à cocoaPods de suivre les règles de versionning sémantiques en permettant au numéro de version spécifié d'être flexible (littérallement "cette version ainsi que ses derniers patchs") lorsque `pod update` est appelé.
 
-Donc, si cocoapods a installé la version `1.2.0` de Snorlax et qu'une version `1.2.1` est publiée, cocoapods mettra à jour la librairie de l'utilisateur la prochaine fois que la commande `pod update` sera lancée.
+Donc, si cocoaPods a installé la version `1.2.0` de Snorlax et qu'une version `1.2.1` est publiée, cocoaPods mettra à jour la librairie de l'utilisateur la prochaine fois que la commande `pod update` sera lancée.
 
 Cependant, si la nouvelle version est liée à une mise à jour "mineure" (**minor**) ou "majeure" (**Major**), lancer la commande `pod update` ne mettre pas à jour la librairie, cette fonctionnalité est restreinte "patchs" ou "corrections de bugs".
 
@@ -51,7 +51,7 @@ Notez-bien: Dans les étapes qui suivent, `Snorlax` doit être remplacé avec le
      `git diff v1.2.0...HEAD`
    - Ajoutez une description à votre tag relative aux modifications apportées
  - "Pushez" le tag au répertoire: `git push origin v1.2.1`
- - "Pushez" le "spec" de cocoapod: `pod trunk push Snorlax.podspec`
+ - "Pushez" le "spec" de cocoaPods: `pod trunk push Snorlax.podspec`
  - Rendez vous dans la sections des releases de GitHub et ajoutez la release liée au nouveau tag.
 
 Vous pouvez automatiser la plupart de ces étapes([Quick][quick] et
