@@ -12,7 +12,7 @@ Voici une liste de points pratiques à suivre lors de la création d'une librair
         - Et que chaque fichier test est dans le 'Framework's Test Bundle'
     - Note: les framework de type 'watchOS' n'ont pas de fichiers de test
 - Gestionnaires de packets
-    - Cocoapods
+    - CocoaPods
         - Exécutez `pod spec create <nom du projet>`
         - Modifiez le fichier `<Project>.podspec`
             - Choisissez une version
