@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
                     - tvOS
                     - Linux
 
-                   See the source at https://github.com/jeffh/Snorlax
+                   See the source at https://github.com/tryswift/Snorlax
                    DESC
 
   s.homepage     = "https://github.com/tryswift/Snorlax"

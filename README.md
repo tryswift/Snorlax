@@ -27,7 +27,7 @@ Using the following Package Managers:
 - Adding as an Xcode Subproject
 
 Feel free the look at the [commit
-history](https://github.com/jeffh/Snorlax/commits/master) or browse the
+history](https://github.com/tryswift/Snorlax/commits/master) or browse the
 documentation to see how to create a library:
 
 - [English](Documentation/en-US/)
@@ -62,7 +62,7 @@ Add Snorlax to your `Cartfile` (package dependency) or `Cartfile.private`
 (development dependency):
 
 ```
-github "jeffh/Snorlax" ~> 0.1.0
+github "tryswift/Snorlax" ~> 0.1.0
 ```
 
 Swift Package Manager
@@ -77,11 +77,11 @@ let package = Package(
     // ... your project details
     dependencies: [
         // As a required dependency
-        .Package(url: "ssh://git@github.com/jeffh/Snorlax.git", majorVersion: 0)
+        .Package(url: "ssh://git@github.com/tryswift/Snorlax.git", majorVersion: 0)
     ],
     testDependencies: [
         // As a test dependency
-        .Package(url: "ssh://git@github.com/jeffh/Snorlax.git", majorVersion: 0)
+        .Package(url: "ssh://git@github.com/tryswift/Snorlax.git", majorVersion: 0)
     ]
 )
 ```
@@ -96,6 +96,6 @@ Contributions
 =============
 
 See
-[CONTRIBUTING](https://github.com/jeffh/Snorlax/blob/master/CONTRIBUTING.md).
+[CONTRIBUTING](https://github.com/tryswift/Snorlax/blob/master/CONTRIBUTING.md).
 Documentation improvements and translations are welcomed!
 

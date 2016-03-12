@@ -3,10 +3,10 @@ Contributing
 
 All contributions are welcomed for this project! Nothing is off limits.
 
-If you found a problem, [file an issue](https://github.com/jeffh/Snorlax/issues/new).
+If you found a problem, [file an issue](https://github.com/tryswift/Snorlax/issues/new).
 
 If you just want to contribute, feel free to look through the [issues
-list](https://github.com/jeffh/Snorlax/issues).
+list](https://github.com/tryswift/Snorlax/issues).
 
 If you want to write more detailed documentation on how to create a library,
 please submit a pull request. Translations to other languages are welcomed!
