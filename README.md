@@ -38,9 +38,9 @@ Can I try installing it?
 
 Sure, use your favorite package manager. Please note the two different versions:
 
-- Odd minor versions (eg - `0.1.0`) require no dependencies. The latest one is `0.1.0`.
+- Odd minor versions (eg - `0.1.0`) require no dependencies. The latest one is `0.1.1`.
 - Even minor versions (eg - `0.2.0`) has dependencies. The latest one is
-  `0.2.0`. Currently, these dependencies don't support all the platforms
+  `0.2.1`. Currently, these dependencies don't support all the platforms
   properly (WIP).
 
 You can see examples at [Snorlax Samples](https://github.com/jeffh/SnorlaxSamples)
